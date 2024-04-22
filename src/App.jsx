@@ -4,6 +4,7 @@ import ButtonComponent from "./components/ButtonComponent";
 import CardComponent from "./components/CardComponent";
 import ColorComponent from "./components/ColorComponent";
 import ImageComponent from "./components/ImageComponent";
+import TableComponent from "./components/TableComponent";
 
 function App() {
   return (
@@ -103,10 +104,16 @@ function App() {
           />
         </section>
         <hr className="mb-5 line" />
-        <section id="sect3 " className="flex-around mb-5">
+        <section id="sect3 " className="flex-around mb-5 ">
           <ColorComponent className="list-group w-25 d-inline-block" />
           <ColorComponent className="list-group w-25 d-inline-block" />
           <ColorComponent className="list-group w-25 d-inline-block" />
+        </section>
+        <hr className="mb-5 line" />
+        <h2 className="text-center  mb-4 h2">Tabella</h2>
+        <section id="sect4 " className="flex-around mb-5">
+          
+          <TableComponent />
         </section>
       </main>
       <footer className="container-fluid bg-dark p-4">

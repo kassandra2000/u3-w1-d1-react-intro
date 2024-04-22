@@ -14,6 +14,7 @@ body {
 .flex-column {
   flex-direction: column;
 }
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -38,6 +39,12 @@ body {
   border: none;
   box-shadow: 1px 3px 5px black;
   text-shadow: 1px 2px 3px #d7d7d7;
+}
+
+@media screen and (max-width: 500px) {
+  .button{
+    font-size: 3.7vw;
+  }
 }
 .img {
   box-shadow: 1px 2px 4px rgb(131, 130, 130);
@@ -88,4 +95,11 @@ footer{
     font-weight: 700;
     color: rgb(117, 6, 117);
   }
+}
+
+.h2{
+  font-size: 4.4em;
+  text-shadow: 1px 2px 2px white;
+  font-weight: 700;
+  color: rgb(150, 4, 150);
 }
